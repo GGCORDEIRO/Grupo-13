@@ -1,0 +1,88 @@
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px;
+    width: 85%;
+    margin: 10%;
+    margin-top: 10px;
+    background-image:url('fundo.jpg');
+    
+}
+
+
+
+h1{
+    background-color: rgb(0, 132, 255);
+    color:white;
+    text-shadow: 10px 10px 10 px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: -10px;
+}
+h2{
+    color: black;
+    font-style: oblique;
+    text-align: center;
+}
+blockquote{
+    text-align: justify;
+    box-shadow: 1px 0px 15px black;
+    background-color: rgb(226, 239, 248);
+    width: 90%;
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botao1, .botao2{
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    width: 15%;
+    font-size: 20px;
+    background: white;
+    padding: 5px 15px;
+    border: 2px solid #666666;
+    border-radius: 10px;
+}
+.botao2{
+    width: 15%;
+    margin-left: 39%;
+}
+.botao1:hover, .botao2:hover{
+    background-color: rgb(226, 239, 248);
+}
+video{
+    box-shadow: black 0.2em 0.5em 0.5em;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 70%;
+    height: 500px;
+    margin-left: 13%;
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    color:rgb(0, 132, 255);
+}
+
+@media (max-width:1200px){
+    .botao1{
+        width: 29%;
+        margin-left: 35%;
+    }
+    .botao2{
+        width: 20%;
+        margin-left: 38%;
+    }
+    video{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
