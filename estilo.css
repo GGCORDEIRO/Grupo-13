@@ -22,7 +22,7 @@ head{
     display: inline-flex;
     margin-left: 140px;
     margin-top: 20px;
-    width: 950px;
+    width: 1250px;
 }
 #pesquisaInput{
     border-radius: 40px;
@@ -56,17 +56,17 @@ head{
 }
 #redes{
     display: inline-flex;
-    margin: 10px;
+    margin-left: 30px;
 }
 .redes{
     width: 30px;
     text-align: center;
-    padding: 3px;
-    margin: auto;
+    padding: 1px;
+    margin: 3px;
 }
 .redes:hover{
-    background-color: rgb(0, 0, 0);
-    padding: 6px;
+    background-color: rgb(0, 91, 175);
+    padding: 1px;
 }
 
 /*Conteudo da pagina*/
