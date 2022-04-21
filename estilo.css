@@ -1,5 +1,58 @@
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px;
+    width: 85%;
+    height: 2000px;
+    margin: 10%;
+    margin-top: 10px;
+    background-image:url('fundo.jpg');
+    background-repeat:initial;
+    background-size: cover;
+}
+head{
+
+}
 .conteudo{
+    display: flex;
+    padding: 10px; 
+}
+h1{
+    text-shadow: rgb(0, 255, 76) 0.2em 0.2em 0.5em;
+    text-align: center;
+    margin-bottom: -10px;
+}
+h2{
+    color: black;
+    font-style: oblique;
+    text-align: center;
+}
+blockquote{
+    box-shadow: black 0.2em 0.9em 0.5em;
+    background-color: #666666;
+    width: 50%;
     border-radius: 10px; 
     padding: 10px; 
     margin-left: 0;
 }
+.imagemIT{
+    width: 40%;
+    height: 450px;
+    margin-top: 40px;
+    border-radius: 2cm;
+}
+.botao1{
+    width: 100%;
+    max-width: 100px;
+    cursor: pointer;
+    background: #aaaaaa;
+    padding: 5px 15px;
+    border: 5px solid #666666;
+    border-radius: 10px;
+}
+.botao1:hover{
+    background-color: rgb(16, 212, 104);
+}   
+footer{
+
+}
+
