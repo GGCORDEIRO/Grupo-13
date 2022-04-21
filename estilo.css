@@ -1,3 +1,4 @@
+/*Página*/
 body{
     font-family: arial, helvetica, sans-serif;
     font-size: 15px;
@@ -9,9 +10,47 @@ body{
     background-repeat:initial;
     background-size: cover;
 }
+/*Cabeçalho*/
 head{
 
 }
+.logo{
+    width: 100px;
+}
+.pesquisa1{
+    display: inline-flex;
+    margin-left: 50px;
+    text-align: center;
+    width: 900px;
+}
+#pesquisaInput{
+    border-radius: 40px;
+    width: 400px;
+    height: 40px;
+    padding: 0px;
+}
+#pesquisaInput::placeholder{
+    margin: 10px;
+}
+.pesquisaButton{
+    border-radius: 40px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+}
+.sobre{
+    display: inline-flex;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: aqua;
+}
+.liSobre{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*Conteudo da pagina*/
 .conteudo{
     display: flex;
     padding: 10px; 
@@ -68,9 +107,13 @@ video{
 a{
     text-decoration: none;
 }
-footer{
 
+/*Fim da página*/
+footer{
+    
 }
+
+/*Mobile*/
 @media (max-width:1200px){
     .botao1{
         width: 29%;
@@ -84,4 +127,33 @@ footer{
         width: 70%;
         margin-left: 15%;
     }
+}
+
+
+
+
+ 
+
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+    display: block;
+ }
+ ol, ul {
+    list-style: none;
+ }
+ blockquote, q {
+    quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+    content: '';
+    content: none;
+ }
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
