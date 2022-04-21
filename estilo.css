@@ -40,19 +40,48 @@ blockquote{
     margin-top: 40px;
     border-radius: 2cm;
 }
-.botao1{
-    width: 100%;
-    max-width: 100px;
-    cursor: pointer;
+.botao1, .botao2{
+    margin-left: 40%;
+    margin-top: 10px;
+    width: 15%;
+    font-size: 20px;
     background: #aaaaaa;
     padding: 5px 15px;
-    border: 5px solid #666666;
+    border: 2px solid #666666;
     border-radius: 10px;
 }
-.botao1:hover{
+.botao2{
+    width: 15%;
+    margin-left: 39%;
+}
+.botao1:hover, .botao2:hover{
     background-color: rgb(16, 212, 104);
-}   
+}
+video{
+    box-shadow: black 0.2em 0.5em 0.5em;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 70%;
+    height: 500px;
+    margin-left: 13%;
+}
+a{
+    text-decoration: none;
+}
 footer{
 
 }
-
+@media (max-width:1200px){
+    .botao1{
+        width: 29%;
+        margin-left: 35%;
+    }
+    .botao2{
+        width: 20%;
+        margin-left: 38%;
+    }
+    video{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
