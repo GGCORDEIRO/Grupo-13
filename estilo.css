@@ -6,7 +6,7 @@ body{
     height: 2000px;
     margin: 10%;
     margin-top: 10px;
-    background-image:url('fundo.jpg');
+    background-image:url('/imagens/fundo.jpg');
     background-repeat:initial;
     background-size: cover;
 }
