@@ -181,25 +181,27 @@ footer{
         display: flex;
     }
     .botao1{
-        width: 29%;
-        margin-left: 35%;
+        width: 38px;
+        margin-left: 95px;
+        min-width: 169px;
     }
     .imagemIT{
         display: none;
     }
     .botao2{
-        width: 20%;
-        margin-left: 38%;
+        width: 38px;
+        margin-left: 95px;
+        min-width: 169px;
+        height: 49px;
     }
     video{
         width: 70%;
         margin-left: 15%;
     }
-    .fim5{
-        position: absolute;
-        background-color: aquamarine;
+    .fim5 {
         align-items: center;
-        margin: 30% 19% 0 10%;
+        position: absolute;
+        margin: 238px 22px 0 -20px;
         color: black !important;
     }
 }
