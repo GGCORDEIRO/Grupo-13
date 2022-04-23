@@ -120,11 +120,7 @@ blockquote{
     cursor: pointer;
     user-select: none;
 }
-.botao2{
-    width: 15%;
-    margin-left: 39%;
-}
-.botao1:hover, .botao2:hover{
+.botao1:hover, .botao2:hover, .pesquisaButton:hover{
     background-color: rgb(16, 212, 104);
 }
 video{
