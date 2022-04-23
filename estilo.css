@@ -182,27 +182,39 @@ footer{
     }
     .botao1{
         width: 38px;
-        margin-left: 95px;
+        margin-left: 107px;
         min-width: 169px;
+        height: 35px;
     }
     .imagemIT{
         display: none;
     }
     .botao2{
         width: 38px;
-        margin-left: 95px;
+        margin-left: 107px;
         min-width: 169px;
-        height: 49px;
+        height: 35px;
     }
     video{
-        width: 70%;
-        margin-left: 15%;
+        width: 330px;
+        margin-left: 31px;
+        height: 440px;
     }
     .fim5 {
-        align-items: center;
-        position: absolute;
-        margin: 238px 22px 0 -20px;
-        color: black !important;
+        margin: 289px 7px 0 7px;
+    }
+    .fimAUJ{
+        padding: 27px;
+        height: 132px;
+    }
+    h4{
+        margin: -5px 0 0 44px;
+    }
+    .fimListAjuda, .fimListUteis, .fimRede {
+        margin: 30px 0px 0 0;
+        font-size: 15px;
+        padding: 0;
+        width: 166px;
     }
 }
 
