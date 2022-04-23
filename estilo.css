@@ -20,7 +20,7 @@ head{
 }
 .pesquisa1{
     display: inline-flex;
-    margin-left: 20px 0 0 140px;
+    margin: 20px 0 0 140px;
     width: 1250px;
 }
 #pesquisaInput{
