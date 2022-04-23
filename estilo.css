@@ -4,9 +4,8 @@ body{
     font-size: 15px;
     width: 85%;
     height: 2000px;
-    margin: 10%;
-    margin-top: 10px;
-    background-image:url('/imagens/fundo.jpg');
+    margin: 10px 10% 10% 10%;
+    background-image: url('/imagens/fundo.jpg');
     background-repeat:initial;
     background-size: cover;
 }
@@ -21,8 +20,7 @@ head{
 }
 .pesquisa1{
     display: inline-flex;
-    margin-left: 140px;
-    margin-top: 20px;
+    margin-left: 20px 0 0 140px;
     width: 1250px;
 }
 #pesquisaInput{
@@ -38,22 +36,19 @@ head{
 }
 .pesquisaButton{
     border-radius: 40px;
-    margin-top: 10px;
+    margin: 10px 0 0 20px;
     width: 100px;
     height: 30px;
-    margin-left: 20px;
     padding: 0px;
 }
 .sobre{
     display: inline-flex;
     font-size: 20px;
-    margin-top: 10px;
-    margin-left: 25px;
+    margin: 10px 0 0 25px;
     padding: 3px;
 }
 .liSobre{
-    margin-right: 20px;
-    margin-left: 25px;
+    margin: 0 20px 0 25px;
 }
 #redes{
     display: inline-flex;
@@ -101,14 +96,14 @@ blockquote{
     border-radius: 2cm;
 }
 .botao1, .botao2{
-    margin-left: 40%;
-    margin-top: 10px;
+    margin: 10px 0 0 40%;
     width: 15%;
     font-size: 20px;
     background: #aaaaaa;
     padding: 5px 15px;
     border: 2px solid #666666;
     border-radius: 10px;
+    cursor: pointer;
 }
 .botao2{
     width: 15%;
@@ -120,12 +115,11 @@ blockquote{
 video{
     box-shadow: black 0.2em 0.5em 0.5em;
     border-radius: 10px;
-    margin-top: 15px;
+    margin: 15px 0 0 13%;
     width: 70%;
     height: 500px;
-    margin-left: 13%;
 }
-a {
+a{
     color: black;
     text-decoration: inherit;
 }
