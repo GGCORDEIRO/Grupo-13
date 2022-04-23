@@ -34,21 +34,17 @@ head{
 #pesquisaInput::placeholder{
     margin: 10px;
 }
-.pesquisaButton{
-    position: absolute;
-    background-color: #aaaaaa;
-    border: 2px solid #666666;
-    border-radius: 15px;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 8.5px 0 0 319px;
-    padding: 5 12px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
+.BotaoPesquisa {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    margin: 12px 0 0 -40px;
+    color: #666666;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
     cursor: pointer;
-    user-select: none;
 }
 .sobre{
     display: inline-flex;
@@ -108,7 +104,7 @@ blockquote{
     margin: 10px 0 0 40%;
     width: 15%;
     background-color: #aaaaaa;
-    border: 2px solid ##666666;
+    border: 2px solid #666666;
     border-radius: 10px;
     font-family: arial,sans-serif;
     font-size: 20px;
@@ -183,4 +179,3 @@ footer{
     border-collapse: collapse;
     border-spacing: 0;
 } 
-
