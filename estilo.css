@@ -35,14 +35,14 @@ head{
     margin: 10px;
 }
 .pesquisaButton{
-    background-color: #303134;
-    border: 1px solid #303134;
-    border-radius: 4px;
-    color: #e8eaed;
+    position: absolute;
+    background-color: #aaaaaa;
+    border: 2px solid #666666;
+    border-radius: 15px;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
+    margin: 8px 0 0 315px;
+    padding: 5 12px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
