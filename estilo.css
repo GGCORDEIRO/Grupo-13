@@ -35,11 +35,20 @@ head{
     margin: 10px;
 }
 .pesquisaButton{
-    border-radius: 40px;
-    margin: 10px 0 0 20px;
-    width: 100px;
-    height: 30px;
-    padding: 0px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 .sobre{
     display: inline-flex;
@@ -98,12 +107,18 @@ blockquote{
 .botao1, .botao2{
     margin: 10px 0 0 40%;
     width: 15%;
-    font-size: 20px;
-    background: #aaaaaa;
-    padding: 5px 15px;
-    border: 2px solid #666666;
+    background-color: #aaaaaa;
+    border: 2px solid ##666666;
     border-radius: 10px;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    padding: 5 15px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
     cursor: pointer;
+    user-select: none;
 }
 .botao2{
     width: 15%;
