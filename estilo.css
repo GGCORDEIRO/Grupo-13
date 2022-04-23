@@ -13,6 +13,9 @@ body{
 head{
 
 }
+h1, h2, .botao1, .botao2, #pesquisaInput, .redes{
+    text-align: center;
+} 
 .logo{
     position: absolute;
     width: 130px;
@@ -27,9 +30,7 @@ head{
     border-radius: 40px;
     width: 400px;
     height: 40px;
-    padding: 0px;
     margin-top: 6px;
-    text-align: center;
 }
 #pesquisaInput::placeholder{
     margin: 10px;
@@ -50,6 +51,7 @@ head{
     font-size: 20px;
     margin: 10px 0 0 25px;
     padding: 3px;
+    list-style: none;
 }
 .liSobre{
     margin: 0 20px 0 25px;
@@ -65,7 +67,6 @@ head{
 }
 .redes{
     width: 30px;
-    text-align: center;
     padding: 1px;
     margin: 3px;
 }
@@ -82,13 +83,11 @@ head{
 h1{
     text-shadow: rgb(7, 217, 224) 0.0em 0.0em 0.5em;
     color: rgb(255, 255, 255);
-    text-align: center;
     margin-bottom: -10px;
 }
 h2{
     color: black;
     font-style: oblique;
-    text-align: center;
 }
 blockquote{
     box-shadow: black 0.2em 0.9em 0.5em;
@@ -116,7 +115,6 @@ blockquote{
     line-height: 27px;
     height: 36px;
     min-width: 54px;
-    text-align: center;
     cursor: pointer;
     user-select: none;
 }
@@ -161,32 +159,6 @@ footer{
         margin-left: 15%;
     }
 }
-
-
-
-
- 
-
- article, aside, details, figcaption, figure, 
- footer, header, hgroup, menu, nav, section {
-    display: block;
- }
- ol, ul {
-    list-style: none;
- }
- blockquote, q {
-    quotes: none;
- }
- blockquote:before, blockquote:after,
- q:before, q:after {
-    content: '';
-    content: none;
- }
- table {
-    border-collapse: collapse;
-    border-spacing: 0;
-} 
-
 
 
 
