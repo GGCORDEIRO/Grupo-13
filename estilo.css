@@ -15,11 +15,10 @@ head{
 
 }
 .container{
-    position: relative;
     top: -18px;
     display: flex;
     padding: 20px;
-    background-color: #666666;
+    background-color: #0099ff;
     border-radius: 0 0 20px 20px;
     box-shadow: black 0em 1em 01em;
 }
@@ -68,7 +67,7 @@ head{
     display: inline;
     margin-left: 35px;
 }
-.logo, .pesquisa1, #pesquisaInput, .botaoPesquisa, #redes, .sobre{
+.container, .logo, .pesquisa1, #pesquisaInput, .botaoPesquisa, #redes, .sobre{
     position: relative;
 }
 h1, h2, .botao1, .botao2, #pesquisaInput{
@@ -170,7 +169,60 @@ footer{
 
 /*Mobile*/
 @media (max-width:1100px){
-
+    body{
+        padding: 3px;
+    }
+    .container{
+        width: 218px;
+        height: 140px;
+        top: -18px;
+        display: flex;
+        padding: 20px;
+    }
+    .logo, .logo1{
+        width: 100px;
+        left: 65px;
+        top: 5px;
+    }
+    .container, .pesquisa1{
+        display: block;
+    }
+    .pesquisa1{
+        width: 75%;
+        left: 10px;
+        top: 15px;
+    }
+    #pesquisaInput{
+        width: 200px;
+        height: 22px;
+    }
+    .botaoPesquisa{
+        height: 20px;
+        width: 20px;
+        left: 170px;
+        top: -21px;
+    }
+    .sobre{
+        width: 400px;
+        left: 0px;
+        top: -20px;
+        font-size: 10px;
+    }
+    .liSobre{
+        display: inline;
+        margin-left: 15px;
+    }
+    #redes{
+        width: 90px;
+        left: 58px;
+        top: -20px;
+    }
+    .redesInsta, .redesWhat{
+        width: 20px;
+    }
+    .redesFace{
+        width: 25px;
+    }
 }
 
 
