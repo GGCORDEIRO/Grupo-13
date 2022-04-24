@@ -4,7 +4,7 @@
     font-family: arial, helvetica, sans-serif;
     font-size: 15px;
     width: 85%;
-    padding: 100px;
+    padding: 10px 100px 10px 100px;
     background-image: url('imagens/fundo.jpg');
     background-repeat: infinite;
     background-size: cover;
@@ -15,26 +15,26 @@ head{
 
 }
 .container{
-    display: inline-flex;
+    display: flex;
+    background-color: #666666;
 }
 .logo{
     width: 150px;
+    left: 100px;
+    background-color: aliceblue;
 }
 .pesquisa1{
-    position: relative;
     display: inline-flex;
     align-items: center;
-    left: 100px;
+    left: 190px;
+    background-color: aqua;
 }
 #pesquisaInput{
-    position: relative;
-    text-align: center;
     border-radius: 40px;
     width: 400px;
     height: 40px;
 }
 .botaoPesquisa{
-    position: relative;
     fill: currentColor;
     height: 25px;
     width: 25px;
@@ -43,21 +43,24 @@ head{
     right: 40px;
 }
 #redes{
-
+    width: 130px;
+    left: 90px;
+    background-color: aliceblue;
 }
 .redesInsta, .redesWhat{
     width: 30px;
-    padding: 1px;
     margin: 3px;
 }
 .redesFace{
     width: 38px;
 }
 .sobre{
-    display: inline-flex;
+    align-items: center;
+    background-color: #666666;
+    width: 420px;
+    left: 22px;
+    padding: 0;
     font-size: 20px;
-    padding: 10px;
-    left: 100px;
     list-style: none;
 }
 .liSobre{
@@ -65,36 +68,16 @@ head{
     margin-left: 40px;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-h1, h2, .botao1, .botao2, #pesquisaInput, .redes{
+.logo, .pesquisa1, #pesquisaInput, .botaoPesquisa, #redes, .sobre{
+    position: relative;
+}
+h1, h2, .botao1, .botao2, #pesquisaInput{
     text-align: center;
 } 
 
-
-*/
-
-
-
-
 /*Conteudo da pagina*/
 
-.botao1:hover, .botao2:hover, .liSobre:hover, .redesFace:hover, .redesInsta:hover, .redesWhat:hover{
+.botao1:hover, .botao2:hover, .liSobre:hover, .redesFace:hover, .redesInsta:hover, .redesWhat:hover, .botaoPesquisa:hover{
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
