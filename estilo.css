@@ -1,12 +1,12 @@
 /*Página*/
  body{
+    display: block;
     font-family: arial, helvetica, sans-serif;
     font-size: 15px;
     width: 85%;
-    height: 2000px;
-    margin: 10px 10% 10% 10%;
-    background-image: url('/imagens/fundo.jpg');
-    background-repeat:initial;
+    padding: 100px;
+    background-image: url('imagens/fundo.jpg');
+    background-repeat: infinite;
     background-size: cover;
 }
 
@@ -14,68 +14,102 @@
 head{
 
 }
-h1, h2, .botao1, .botao2, #pesquisaInput, .redes{
-    text-align: center;
-} 
+.container{
+    display: inline-flex;
+}
 .logo{
-    position: absolute;
-    width: 130px;
-    margin: 5px 0 0 70px;
+    width: 150px;
 }
 .pesquisa1{
+    position: relative;
     display: inline-flex;
-    margin: 20px 0 0 240px;
-    width: 1250px;
+    align-items: center;
+    left: 100px;
 }
 #pesquisaInput{
+    position: relative;
+    text-align: center;
     border-radius: 40px;
     width: 400px;
     height: 40px;
-    margin-top: 6px;
 }
-#pesquisaInput::placeholder{
-    margin: 10px;
-}
-.BotaoPesquisa {
-    display: inline-block;
-    fill: currentColor;
-    height: 24px;
-    width: 24px;
-    margin: 11px 0 0 -40px;
-    color: #666666;
-    height: 24px;
-    line-height: 24px;
+.botaoPesquisa{
     position: relative;
-}
-.sobre{
-    display: inline-flex;
-    font-size: 20px;
-    margin: 10px 0 0 25px;
-    padding: 3px;
-    list-style: none;
-}
-.liSobre{
-    margin: 0 20px 0 25px;
-}
-.liSobre:hover{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    fill: currentColor;
+    height: 25px;
+    width: 25px;
+    color: #666666;
+    line-height: 24px;
+    right: 40px;
 }
 #redes{
-    display: inline;
-    margin-left: 30px;
+
 }
-.redes{
+.redesInsta, .redesWhat{
     width: 30px;
     padding: 1px;
     margin: 3px;
 }
-.redes:hover{
-    padding: 1px;
+.redesFace{
+    width: 38px;
+}
+.sobre{
+    display: inline-flex;
+    font-size: 20px;
+    padding: 10px;
+    left: 100px;
+    list-style: none;
+}
+.liSobre{
+    display: inline-flex;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h1, h2, .botao1, .botao2, #pesquisaInput, .redes{
+    text-align: center;
+} 
+
+
+*/
+
+
+
+
 /*Conteudo da pagina*/
+
+.botao1:hover, .botao2:hover, .liSobre:hover, .redesFace:hover, .redesInsta:hover, .redesWhat:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+a{
+    color: black;
+    text-decoration: inherit;
+}
+a:hover{
+    color:rgb(253, 253, 253);
+}
+.botao1:hover, .botao2:hover{
+    background-color: rgb(16, 212, 104);
+}
+/*
 .conteudo{
     display: flex;
     padding: 10px; 
@@ -118,14 +152,6 @@ blockquote{
     cursor: pointer;
     user-select: none;
 }
-.botao1:hover, .botao2:hover, .redes:hover{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-.botao1:hover, .botao2:hover{
-    background-color: rgb(16, 212, 104);
-}
 video{
     box-shadow: black 0.2em 0.5em 0.5em;
     border-radius: 10px;
@@ -133,13 +159,7 @@ video{
     width: 70%;
     height: 500px;
 }
-a{
-    color: black;
-    text-decoration: inherit;
-}
-a:hover{
-    color:rgb(253, 253, 253);
-}
+*/
 
 /*Fim da página*/
 footer{
@@ -148,80 +168,13 @@ footer{
 
 /*Mobile*/
 @media (max-width:1100px){
-    .sobre{
-        width: 10%;
-        display: inline;
-        padding: 10px; 
-    }
-    #pesquisaInput {
-        width: 250px;
-        height: 33px;
-        margin-top: 62px;
-        margin-left: -193px;
-    }
-    .logo {
-        position: absolute;
-        width: 82px;
-        margin: 12px 0 0 128px;
-    }
-    .conteudo{
-        display: block;
-    }
-    .pesquisa1{
-        width: 10px;
-        display: block;
-    }
-    blockquote{
-        width: 100%;
-    }
-    .redes{
-        display: flex;
-    }
-    .BotaoPesquisa{
-        display: flex;
-    }
-    .botao1{
-        width: 38px;
-        margin-left: 107px;
-        min-width: 169px;
-        height: 35px;
-    }
-    .imagemIT{
-        display: none;
-    }
-    .botao2{
-        width: 38px;
-        margin-left: 107px;
-        min-width: 169px;
-        height: 35px;
-    }
-    video{
-        width: 330px;
-        margin-left: 31px;
-        height: 440px;
-    }
-    .fim5 {
-        margin: 289px 7px 0 7px;
-    }
-    .fimAUJ{
-        padding: 27px;
-        height: 132px;
-    }
-    h4{
-        margin: -5px 0 0 44px;
-    }
-    .fimListAjuda, .fimListUteis, .fimRede {
-        margin: 30px 0px 0 0;
-        font-size: 15px;
-        padding: 0;
-        width: 166px;
-    }
+
 }
 
 
 
 
-
+/*
 .fimLogo{
     width: 50%;
     margin-left: 10px;
@@ -279,3 +232,8 @@ footer {
     margin: 52px 0 0 0;
     line-height: 20px;
 }
+*/
+
+
+
+
