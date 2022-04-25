@@ -5,16 +5,11 @@
     font-size: 15px;
     width: 85%;
     padding: 10px 100px 10px 100px;
-    background-image: url('imagens/fundo.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
+    background: linear-gradient(68.15deg, #af2424 16.62%, #2e83c9 85.61%);
+    background-size: 300% 300%;
     position: relative;
 }
-
 /*Cabeçalho*/
-head{
-
-}
 .container{
     top: -18px;
     display: flex;
@@ -97,7 +92,8 @@ h2{
     font-style: oblique;
 }
 blockquote{
-    box-shadow: black 0.2em 0.9em 0.5em;
+    box-shadow: #2e83c9 0em 0em 9em;
+    background: linear-gradient(68.15deg, #af2424 16.62%, #2e83c9 200.61%);
     background-color: #666666;
     width: 50%;
     border-radius: 10px; 
@@ -189,7 +185,7 @@ h4{
     width: 100%;
     display: inline-flex;
     align-items: center;
-    background-color: #666666;
+    background-color: #af2424;
     top: 40px;
 }
 .fimLOGOLINK{
@@ -210,10 +206,13 @@ li{
 }
 .fimInsta, .fimWhat{
     width: 30px;
-    padding: 1px;
+    margin: 2px;
 }
 .fimFace{
     width: 35px;
+}
+.fimAJUDA{
+    display: inline-flex;
 }
 
 /*Mobile*/
@@ -316,7 +315,35 @@ li{
 
 
 
-.fimAJUDA{
-    display: inline-flex;
-}
 
+
+.container {
+    animation-name: fundo;
+    animation-duration: 3s;
+    animation-iteration-count:inherit;
+  }
+  
+  @keyframes fundo {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }
+
+ {
+    animation-name: fundo1;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes fundo1 {
+    from {
+        background: linear-gradient(68.15deg, #af2424 16.62%, #2e83c9 85.61%);
+    }
+    to {
+        background: linear-gradient(68.15deg, #2e83c9 16.62%, #af2424 85.61%);
+    }
+  }
+  
