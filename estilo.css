@@ -68,7 +68,7 @@ head{
     display: inline;
     margin-left: 35px;
 }
-.container, .logo, .pesquisa1, #pesquisaInput, .botaoPesquisa, #redes, .sobre{
+.container, h1, .fimREDES, .fimVisiteRedes, h4, .fimCNPJLOGO, .fimLOGOLINK, footer, .CNPJ, .fimAjuda1, .fimUteis1, .fimLogo, video,.botao2, .botao1, .meioVideoBotao, .imagemIT, .conteudo, .logo, .pesquisa1, #pesquisaInput, .botaoPesquisa, #redes, .sobre{
     position: relative;
 }
 h1, h2, .botao1, .botao2, #pesquisaInput{
@@ -78,7 +78,6 @@ h1, h2, .botao1, .botao2, #pesquisaInput{
 /*Conteudo da pagina*/
 
 h1{
-    position: relative;
     top: 40px;
     left: 29%;
     width: 50%;
@@ -89,7 +88,6 @@ h1{
 }
 .conteudo{
     display: flex;
-    position: relative;
     padding: 5px; 
     top: 70px;
     align-items: center;
@@ -106,7 +104,6 @@ blockquote{
     padding: 10px;
 }
 .imagemIT{
-    position: relative;
     top: 10px;
     width: 33%;
     height: 350px;
@@ -114,7 +111,6 @@ blockquote{
     border-radius: 2cm;
 }
 .meioVideoBotao{
-    position: relative;
     left: 90px;
     top: 180px;
 }
@@ -131,17 +127,14 @@ blockquote{
     user-select: none;
 }
 .botao1{
-    position: relative;
     left: 38%;
     top: -530px;
 }
 .botao2{
-    position: relative;
     top: 70px;
     right: 38%;
 }
 video{
-    position: relative;
     box-shadow: black 0.2em 0.5em 0.5em;
     border-radius: 10px;
     width: 60%;
@@ -164,9 +157,8 @@ a:hover{
 }
 
 /*Fim da página*/
-footer {
+footer{
     height: 220px;
-    position: relative;
     top: 383px;
     line-height: 20px;
     background-color: #0080ff;
@@ -176,35 +168,39 @@ footer {
 .fimRedes{
     display: inline-flex;
 }
+.fimREDES{
+    left: 300px;
+}
+.fimVisiteRedes{
+    right: 200px;
+}
 .fimListAjuda, .fimListUteis, .fimRede{
-    position: relative;
     font-size: 15px;
 }
-h4 {
+h4{
     font-family: Arial ,sans-serif;
     color: #ffffff;
-    position: relative;
     font-size: 20px;
-    left: 120px;
+    left: 200px;
 }
 .fimCNPJLOGO{
     width: 100%;
-    position: relative;
     display: inline-flex;
     align-items: center;
     background-color: #666666;
     top: 40px;
 }
-.fimAjuda1{
-    position: relative;
-    top: 50px;
+.fimLOGOLINK{
+    left: 250px;
 }
-.fimUteis1{
-    position: relative;
-    top: 50px;
+.CNPJ{
+    left: 400px;
 }
-.fimLogo {
-    position: relative;
+.fimAjuda1, .fimUteis1{
+    top: 50px;
+    left: 80px;
+}
+.fimLogo{
     width: 103px;
 }
 li{
